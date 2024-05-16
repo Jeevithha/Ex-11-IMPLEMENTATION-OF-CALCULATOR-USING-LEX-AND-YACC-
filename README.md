@@ -1,10 +1,10 @@
 # Ex-11-IMPLEMENTATION OF CALCULATOR USING LEX AND YACC
-# NAME: JEEVITHA S
-# REGISTER NUMBER: 212222100016
-# Date :17.04.2024
-# Aim :
+## NAME: JEEVITHA S
+## REGISTER NUMBER: 212222100016
+## Date :17.04.2024
+## Aim :
 To implement a calculator using LEX and YACC.
-# ALGORITHM
+## ALGORITHM
 1. Start the program.
 2. Write a program in the vi editor and save it with .l extension.
 3. In the lex program, write the translation rules for the various mathematical functions.
@@ -13,7 +13,7 @@ To implement a calculator using LEX and YACC.
 6. Compile the yacc program with yacc compiler to produce output file as y.tab.c. eg $ yacc –d arith_id.y
 7. Compile these with the C compiler as gcc lex.yy.c y.tab.c
 8. Enter an expression as input and it is evaluated and the answer is displayed as output.
-# PROGRAM
+## PROGRAM
 ```
 #include <stdio.h>
 #include <string.h>
@@ -109,9 +109,9 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT
+## OUTPUT
 <img width="494" alt="image" src="https://github.com/manomadhivanan/Ex-11-IMPLEMENTATION-OF-CALCULATOR-USING-LEX-AND-YACC-/assets/115543366/4d7c6f3f-dd8f-45c7-88c3-40a73a345fee">
 
-# RESULT
+## RESULT
 The calculator is implemented using LEX and YACC and the output is verified.
 
